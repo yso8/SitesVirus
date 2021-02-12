@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+.menu1 {
+  width: 1100px; 
+}
+
+.menu1 a {
+  font-weight: 700px;
+  background-color: white;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: solid;
+ }
+
+.menu1 a:hover {
+  display: block; 
+}
+
+a:link span {
+  color: black; 
+  display: none; 
+  padding: 12px; 
+  text-decoration: none;
+  font-weight: 300px; 
+}
+
+a:hover span {
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: block; 
+}
+
+ul {
+  list-style-type: none;
+}
+
+.onglet
+{
+        display:inline-block;
+        margin-left:3px;
+        margin-right:3px;
+        padding:3px;
+        border:1px solid black;
+        cursor:pointer;
+}
+.onglet a
+{
+        color:#000000;
+        text-decoration:none;
+}
+.onglet_n
+{
+        background:#bbbbbb;
+        border-bottom:1px solid black;
+}
+.onglet_y
+{
+        background:#dddddd;
+        border-bottom:0px solid black;
+        padding-bottom:4px;
+}
+.contenu
+{
+        background-color:#dddddd;
+        border:1px solid black;
+        margin-top:-1px;
+        padding:5px;
+}
+ul
+{
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-left:-10px
+}
+h1
+{
+        margin:0px;
+        padding:0px;
+}
